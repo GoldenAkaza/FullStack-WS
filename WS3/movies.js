@@ -2,7 +2,7 @@ const express = require("express");
 const axios = require("axios");
 const app = express();
 
-// Use dynamic PORT in production (Render) and a default for local
+// Use dynamic PORT in production (Render) and a default for local 
 const PORT = process.env.PORT || 5000;
 
 const API_KEY = "68f0df2e";    // get it from omdbapi.com/apikey.aspx
